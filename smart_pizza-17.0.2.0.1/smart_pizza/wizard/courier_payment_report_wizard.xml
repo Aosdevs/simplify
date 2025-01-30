@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="courier_payment_report_wizard_form_view" model="ir.ui.view">
+            <field name="name">courier.payment.report.wizard.form</field>
+            <field name="model">courier.payment.report.wizard</field>
+            <field name="arch" type="xml">
+                <form string="Courier Payment Report Wizard">
+                    <group>
+                        <group>
+                            <field name="delivery_man_ids" widget="many2many_tags"/>
+                        </group>
+                        <group>
+                            <field name="from_date"
+                                   widget="daterange"
+                                   options="{'end_date_field': 'to_date'}"/>
+                            <field name="to_date" invisible="1"/>
+                        </group>
+                        <field name="delivery_order_ids"/>
+                    </group>
+                    <footer>
+                        <button string="Print Courier Payment Report"
+                                name="courier_payment_report" type="object"
+                                class="btn-primary" data-hotkey="d"/>
+                        <button string="Cancel" class="btn-secondary" special="cancel"
+                                data-hotkey="x"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+        <record id="courier_payment_report_wizard_act_window" model="ir.actions.act_window">
+            <field name="name">Courier Payment Report Wizard</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">courier.payment.report.wizard</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="courier_payment_report_wizard_form_view"/>
+            <field name="target">new</field>
+            <field name="binding_model_id" ref="model_hr_delivery_man"/>
+            <field name="binding_type">report</field>
+        </record>
+
+    </data>
+</odoo>

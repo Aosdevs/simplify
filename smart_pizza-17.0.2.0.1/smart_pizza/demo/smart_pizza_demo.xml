@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <!--Valery Filippovich-->
+        <record id="delivery_man" model="hr.job">
+            <field name="name">Delivery Man</field>
+            <field name="department_id" ref="hr.dep_ps"/>
+            <field name="no_of_recruitment">5</field>
+            <field name="contract_type_id" ref="hr.contract_type_interim"/>
+            <field name="description">We are currently looking for someone like that to join our Delivery Man team.
+            </field>
+        </record>
+
+        <record id="work_contact_vf" model="res.partner">
+            <field name="name">Valery Filippovich</field>
+            <field name="email">valery.filippovich@example.com</field>
+            <field name="image_1920" type="base64" file="smart_pizza/static/img/work_contact_vf.jpeg"/>
+        </record>
+
+        <record id="user_vf" model="res.users">
+            <field name="partner_id" ref="work_contact_vf"/>
+            <field name="login">valery.filippovich@example.com</field>
+            <field name="groups_id" eval="[(4, ref('group_delivery'))]"/>
+        </record>
+
+        <record id="employee_vf" model="hr.employee">
+            <field name="name">Valery Filippovich</field>
+            <field name="department_id" ref="hr.dep_ps"/>
+            <field name="user_id" ref="user_vf"/>
+            <field name="user_partner_id" ref="work_contact_vf"/>
+            <field name="parent_id" ref="hr.employee_ngh"/>
+            <field name="job_id" ref="delivery_man"/>
+            <field name="job_title">Delivery Man</field>
+            <field name="private_country_id" ref="base.us"/>
+            <field name="private_email">valery.filippovich@example.com</field>
+            <field name="work_location_id" ref="hr.work_location_1"/>
+            <field name="work_phone">(555)-233-3393</field>
+            <field name="work_contact_id" ref="smart_pizza.work_contact_vf"/>
+            <field name="image_1920" type="base64" file="smart_pizza/static/img/work_contact_vf.jpeg"/>
+            <field name="create_date">2010-01-01 00:00:00</field>
+            <field name="marital">married</field>
+        </record>
+
+        <!--Vitaly Mykolayovych-->
+        <record id="work_contact_vm" model="res.partner">
+            <field name="name">Vitaly Mykolayovych</field>
+            <field name="email">vitaly.mykolayovych@example.com</field>
+            <field name="image_1920" type="base64" file="smart_pizza/static/img/work_contact_vm.jpeg"/>
+        </record>
+
+        <record id="user_vm" model="res.users">
+            <field name="partner_id" ref="work_contact_vm"/>
+            <field name="login">vitaly.mykolayovych@example.com</field>
+            <field name="groups_id" eval="[(4, ref('group_delivery'))]"/>
+        </record>
+
+        <record id="employee_vm" model="hr.employee">
+            <field name="name">Vitaly Mykolayovych</field>
+            <field name="user_id" ref="user_vm"/>
+            <field name="user_partner_id" ref="work_contact_vm"/>
+            <field name="department_id" ref="hr.dep_ps"/>
+            <field name="parent_id" ref="hr.employee_ngh"/>
+            <field name="job_id" ref="delivery_man"/>
+            <field name="job_title">Delivery Man</field>
+            <field name="private_country_id" ref="base.us"/>
+            <field name="private_email">vitaly.mykolayovych@example.com</field>
+            <field name="work_location_id" ref="hr.work_location_1"/>
+            <field name="work_phone">(555)-233-3393</field>
+            <field name="work_contact_id" ref="smart_pizza.work_contact_vm"/>
+            <field name="image_1920" type="base64" file="smart_pizza/static/img/work_contact_vm.jpeg"/>
+            <field name="create_date">2010-01-01 00:00:00</field>
+            <field name="marital">married</field>
+        </record>
+
+        <!--Oleksandr Serhiyovych-->
+        <record id="work_contact_os" model="res.partner">
+            <field name="name">Oleksandr Serhiyovych</field>
+            <field name="email">oleksandr.serhiyovych@example.com</field>
+            <field name="image_1920" type="base64" file="smart_pizza/static/img/work_contact_os.jpeg"/>
+        </record>
+
+        <record id="user_os" model="res.users">
+            <field name="partner_id" ref="work_contact_os"/>
+            <field name="login">oleksandr.serhiyovych@example.com</field>
+            <field name="groups_id" eval="[(4, ref('group_delivery'))]"/>
+        </record>
+
+        <record id="employee_os" model="hr.employee">
+            <field name="name">Oleksandr Serhiyovych</field>
+            <field name="user_id" ref="user_os"/>
+            <field name="user_partner_id" ref="work_contact_os"/>
+            <field name="department_id" ref="hr.dep_ps"/>
+            <field name="parent_id" ref="hr.employee_ngh"/>
+            <field name="job_id" ref="delivery_man"/>
+            <field name="job_title">Delivery Man</field>
+            <field name="private_country_id" ref="base.us"/>
+            <field name="private_email">oleksandr.serhiyovych@example.com</field>
+            <field name="work_location_id" ref="hr.work_location_1"/>
+            <field name="work_phone">(555)-233-3393</field>
+            <field name="work_contact_id" ref="smart_pizza.work_contact_os"/>
+            <field name="image_1920" type="base64" file="smart_pizza/static/img/work_contact_os.jpeg"/>
+            <field name="create_date">2010-01-01 00:00:00</field>
+            <field name="marital">married</field>
+        </record>
+
+        <!--Delivery Men-->
+        <record id="hr_delivery_man_vm" model="hr.delivery.man">
+            <field name="employee_id" ref="employee_vm"/>
+        </record>
+
+        <record id="hr_delivery_man_vf" model="hr.delivery.man">
+            <field name="employee_id" ref="employee_vf"/>
+        </record>
+
+        <record id="hr_delivery_man_os" model="hr.delivery.man">
+            <field name="employee_id" ref="employee_os"/>
+        </record>
+
+        <!--Courier Delivery Orders-->
+        <record id="courier_delivery_order_1" model="courier.delivery.order">
+            <field name="name">DO001</field>
+            <field name="state">draft</field>
+            <field name="partner_id" ref="base.res_partner_10"/>
+            <field name="delivery_man_id" ref="hr_delivery_man_vm"/>
+            <field name="pos_order_id" ref="pos_restaurant.pos_open_order_5"/>
+        </record>
+
+        <record id="courier_delivery_order_2" model="courier.delivery.order">
+            <field name="name">DO002</field>
+            <field name="state">in_progress</field>
+            <field name="partner_id" ref="base.res_partner_4"/>
+            <field name="delivery_man_id" ref="hr_delivery_man_vf"/>
+            <field name="pos_order_id" ref="pos_restaurant.pos_open_order_4"/>
+            <field name="time_start" eval="datetime.now() - timedelta(minutes=15)"/>
+        </record>
+
+        <record id="courier_delivery_order_3" model="courier.delivery.order">
+            <field name="name">DO003</field>
+            <field name="state">in_progress</field>
+            <field name="partner_id" ref="base.res_partner_1"/>
+            <field name="delivery_man_id" ref="hr_delivery_man_os"/>
+            <field name="pos_order_id" ref="pos_restaurant.pos_open_order_2"/>
+            <field name="time_start" eval="datetime.now() - timedelta(minutes=20)"/>
+        </record>
+
+        <!--Courier Delivery Order lines-->
+        <record id="pos_delivery_orderline_1" model="pos.order.line" forcecreate="False">
+            <field name="name">Delivery</field>
+            <field name="product_id" ref="delivery_product"/>
+            <field name="price_subtotal">5</field>
+            <field name="price_subtotal_incl">5</field>
+            <field name="price_unit">5</field>
+            <field name="qty">1</field>
+            <field name="order_id" ref="pos_restaurant.pos_open_order_2"/>
+            <field name="full_product_name">Delivery</field>
+        </record>
+        <record id="pos_delivery_orderline_2" model="pos.order.line" forcecreate="False">
+            <field name="name">Delivery</field>
+            <field name="product_id" ref="delivery_product"/>
+            <field name="price_subtotal">6</field>
+            <field name="price_subtotal_incl">6</field>
+            <field name="price_unit">6</field>
+            <field name="qty">1</field>
+            <field name="order_id" ref="pos_restaurant.pos_open_order_4"/>
+            <field name="full_product_name">Delivery</field>
+        </record>
+        <record id="pos_delivery_orderline_3" model="pos.order.line" forcecreate="False">
+            <field name="name">Delivery</field>
+            <field name="product_id" ref="delivery_product"/>
+            <field name="price_subtotal">7</field>
+            <field name="price_subtotal_incl">7</field>
+            <field name="price_unit">7</field>
+            <field name="qty">1</field>
+            <field name="order_id" ref="pos_restaurant.pos_open_order_5"/>
+            <field name="full_product_name">Delivery</field>
+        </record>
+
+        <!--Courier Shift-->
+        <record id="courier_shift_1" model="courier.shift">
+            <field name="delivery_man_id" ref="hr_delivery_man_vf"/>
+            <field name="time_start" eval="datetime.now() - timedelta(hours=2)"/>
+            <field name="time_end" eval="datetime.now() - timedelta(hours=-6)"/>
+            <field name="status">happening</field>
+        </record>
+
+        <record id="courier_shift_2" model="courier.shift">
+            <field name="delivery_man_id" ref="hr_delivery_man_vm"/>
+            <field name="time_start" eval="datetime.now() - timedelta(hours=-2)"/>
+            <field name="time_end" eval="datetime.now() - timedelta(hours=-10)"/>
+            <field name="status">planed</field>
+        </record>
+
+        <record id="courier_shift_3" model="courier.shift">
+            <field name="delivery_man_id" ref="hr_delivery_man_os"/>
+            <field name="time_start" eval="datetime.now() - timedelta(hours=10)"/>
+            <field name="time_end" eval="datetime.now() - timedelta(hours=2)"/>
+            <field name="status">completed</field>
+        </record>
+
+        <!--Restaurant Table-->
+        <record id="delivery_table" model="restaurant.table">
+            <field name="name">Valery Filippovich</field>
+            <field name="floor_id" ref="floor_delivery_team"/>
+            <field name="position_v">10</field>
+            <field name="width">300</field>
+            <field name="courier_shift_id" ref="courier_shift_1"/>
+        </record>
+
+    </data>
+</odoo>

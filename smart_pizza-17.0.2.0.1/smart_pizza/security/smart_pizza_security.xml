@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+
+        <record model="ir.module.category" id="base.module_category_sales_smart_pizza">
+            <field name="description">Helps you get your actions.</field>
+            <field name="sequence">33</field>
+        </record>
+
+        <record id="group_kitchen" model="res.groups">
+            <field name="name">Kitchen</field>
+            <field name="category_id" ref="base.module_category_sales_smart_pizza"/>
+            <field name="implied_ids"
+                   eval="[(6, 0, [ref('point_of_sale.group_pos_user'), ref('stock.group_stock_user')])]"/>
+            <field name="comment">The user will be able to see orders.</field>
+        </record>
+
+        <record id="group_delivery" model="res.groups">
+            <field name="name">Delivery</field>
+            <field name="category_id" ref="base.module_category_sales_smart_pizza"/>
+            <field name="implied_ids" eval="[(6, 0, [ref('smart_pizza.group_kitchen')])]"/>
+            <field name="comment">The user will be able to see his own orders.</field>
+        </record>
+
+        <record id="group_waiter" model="res.groups">
+            <field name="name">Waiter</field>
+            <field name="category_id" ref="base.module_category_sales_smart_pizza"/>
+            <field name="implied_ids" eval="[(6, 0, [ref('smart_pizza.group_delivery')])]"/>
+            <field name="comment">The user will be able to create orders.</field>
+        </record>
+
+        <record id="group_administrator" model="res.groups">
+            <field name="name">Administrator</field>
+            <field name="category_id" ref="base.module_category_sales_smart_pizza"/>
+            <field name="implied_ids" eval="[(6, 0, [ref('smart_pizza.group_waiter')])]"/>
+            <field name="users" eval="[(4, ref('base.user_root')), (4, ref('base.user_admin'))]"/>
+            <field name="comment">The user will be able to see his own orders.</field>
+        </record>
+
+    </data>
+</odoo>

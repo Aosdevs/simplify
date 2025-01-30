@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="courier_shift_form_view" model="ir.ui.view">
+            <field name="name">courier.shift.form</field>
+            <field name="model">courier.shift</field>
+            <field name="arch" type="xml">
+                <form string="Courier Shift">
+                    <header>
+                        <field name="status" widget="statusbar" options="{'clickable': '1'}"/>
+                        <button name="apply_to_restaurant"
+                                type="object"
+                                string="Apply To Restaurant"
+                                invisible="status != 'planed'"/>
+                    </header>
+                    <sheet>
+                        <div class="oe_button_box" name="button_box">
+                            <button class="oe_stat_button"
+                                    type="object"
+                                    icon="fa-ticket"
+                                    name="action_delivery_orders_view" invisible="number_delivery_orders == 0">
+                                <field string="Delivery Orders" name="number_delivery_orders" widget="statinfo"/>
+                            </button>
+                        </div>
+                        <group>
+                            <group>
+                                <field name="active" invisible="1"/>
+                                <field name="delivery_man_id"
+                                       readonly="status != 'planed'"/>
+                            </group>
+                            <group>
+                                <field name="time_start"
+                                       widget="daterange"
+                                       options="{'end_date_field': 'time_end'}"
+                                       readonly="status != 'planed'"/>
+                                <field name="time_end"
+                                       invisible="1"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="courier_shift_tree_view" model="ir.ui.view">
+            <field name="name">courier.shift.tree</field>
+            <field name="model">courier.shift</field>
+            <field name="arch" type="xml">
+                <tree string="Courier Shift">
+                    <field name="delivery_man_id"/>
+                    <field name="time_start"/>
+                    <field name="time_end"/>
+                    <field name="status"/>
+                    <field name="number_delivery_orders"/>
+                    <field name="active" column_invisible="True"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="courier_shift_calendar" model="ir.ui.view">
+            <field name="name">courier.shift.calendar</field>
+            <field name="model">courier.shift</field>
+            <field name="arch" type="xml">
+                <calendar date_start="time_start"
+                          date_stop="time_end"
+                          color="delivery_man_id"
+                          event_open_popup="true"
+                          quick_create="true"
+                          quick_create_view_id="%(smart_pizza.courier_shift_form_view)d"
+                          string="Patient Visit">
+                    <field name="delivery_man_id" filters="1"/>
+                </calendar>
+            </field>
+        </record>
+
+        <record id="courier_shift_search" model="ir.ui.view">
+            <field name="name">courier.shift.search</field>
+            <field name="model">courier.shift</field>
+            <field name="arch" type="xml">
+                <search string="Courier Shift">
+                    <filter name="inactive" string="Archived" domain="[('active', '=', False)]"/>
+                    <group>
+                        <filter string="User" name="user_shift" context="{'group_by':'delivery_man_id'}"/>
+                    </group>
+                </search>
+            </field>
+        </record>
+
+        <record id="courier_shift_act_window" model="ir.actions.act_window">
+            <field name="name">Courier Shift</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">courier.shift</field>
+            <field name="view_mode">tree,form,calendar</field>
+            <field name="search_view_id" ref="courier_shift_search"/>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                    There is no examples click here to add new Courier Shift.
+                </p>
+            </field>
+        </record>
+
+        <menuitem name="Courier Shift"
+                  id="courier_shift_menu"
+                  parent="smart_delivery_menu"
+                  sequence="15"
+                  action="courier_shift_act_window"/>
+
+    </data>
+</odoo>

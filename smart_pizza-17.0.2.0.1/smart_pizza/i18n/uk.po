@@ -1,0 +1,1275 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: test\n"
+"Language: uk\n"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_delivery_order__message_needaction
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__message_needaction
+msgid "Action Needed"
+msgstr "Потрібна дія"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_shift__active
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__active
+#: model_terms:ir.ui.view,arch_db:smart_pizza.hr_delivery_man_search
+msgid "Active"
+msgstr "Активний"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_delivery_order__activity_ids
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__activity_ids
+msgid "Activities"
+msgstr "Діяльність"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_delivery_order__activity_exception_decoration
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Декорація виключення діяльності"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_delivery_order__activity_state
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__activity_state
+msgid "Activity State"
+msgstr "Стан діяльності"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_delivery_order__activity_type_icon
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Значок типу діяльності"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__departure_description
+msgid "Additional Information"
+msgstr "Додаткова інформація"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__additional_note
+msgid "Additional Note"
+msgstr "Додаткова примітка"
+
+#. module: smart_pizza
+#: model:res.groups,name:smart_pizza.group_administrator
+msgid "Administrator"
+msgstr "Адміністратор"
+
+#. module: smart_pizza
+#: model_terms:ir.ui.view,arch_db:smart_pizza.courier_shift_form_view
+msgid "Apply To Restaurant"
+msgstr "Застосувати до ресторану"
+
+#. module: smart_pizza
+#: model_terms:ir.ui.view,arch_db:smart_pizza.setup_delivery_team_wizard_form_view
+msgid "Approve"
+msgstr "Затвердити"
+
+#. module: smart_pizza
+#: model_terms:ir.ui.view,arch_db:smart_pizza.courier_shift_search
+#: model_terms:ir.ui.view,arch_db:smart_pizza.hr_delivery_man_form_view
+#: model_terms:ir.ui.view,arch_db:smart_pizza.hr_delivery_man_search
+msgid "Archived"
+msgstr "Архівовано"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_delivery_order__message_attachment_count
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__message_attachment_count
+msgid "Attachment Count"
+msgstr "Кількість вкладень"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__avatar_1920
+msgid "Avatar"
+msgstr "Аватар"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__avatar_1024
+msgid "Avatar 1024"
+msgstr "Аватар 1024"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__avatar_128
+msgid "Avatar 128"
+msgstr "Аватар 128"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__avatar_256
+msgid "Avatar 256"
+msgstr "Аватар 256"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__avatar_512
+msgid "Avatar 512"
+msgstr "Аватар 512"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__barcode
+msgid "Badge ID"
+msgstr "ID значка"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__bank_account_id
+msgid "Bank Account Number"
+msgstr "Номер банківського рахунку"
+
+#. module: smart_pizza
+#: model_terms:ir.ui.view,arch_db:smart_pizza.courier_payment_report_wizard_form_view
+#: model_terms:ir.ui.view,arch_db:smart_pizza.setup_delivery_team_wizard_form_view
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: smart_pizza
+#: model_terms:ir.ui.view,arch_db:smart_pizza.courier_delivery_order_form_view
+msgid "Cancel The Order"
+msgstr "Скасувати замовлення"
+
+#. module: smart_pizza
+#: model:ir.model.fields.selection,name:smart_pizza.selection__courier_delivery_order__state__cancel
+#: model_terms:ir.ui.view,arch_db:smart_pizza.courier_delivery_order_search
+msgid "Cancelled"
+msgstr "Скасовано"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__certificate
+msgid "Certificate Level"
+msgstr "Рівень сертифіката"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__coach_id
+msgid "Coach"
+msgstr "тренер"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__color
+msgid "Color Index"
+msgstr "Індекс кольору"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__company_country_id
+msgid "Company Country"
+msgstr "Країна компанії"
+
+#. module: smart_pizza
+#: model:ir.model.fields.selection,name:smart_pizza.selection__courier_shift__status__completed
+msgid "Completed"
+msgstr "Виконано"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__emergency_contact
+msgid "Contact Name"
+msgstr "Контактне ім'я"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__emergency_phone
+msgid "Contact Phone"
+msgstr "Контактний телефон"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__company_country_code
+msgid "Country Code"
+msgstr "Код країни"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__country_of_birth
+msgid "Country of Birth"
+msgstr "Країна народження"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_shift__delivery_man_id
+msgid "Courier"
+msgstr "Кур'єр"
+
+#. module: smart_pizza
+#: model:ir.actions.act_window,name:smart_pizza.courier_delivery_order_act_window
+#: model:ir.model,name:smart_pizza.model_courier_delivery_order
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_delivery_order__name
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_payment_report_wizard__delivery_order_ids
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_shift__courier_delivery_order_ids
+#: model:ir.ui.menu,name:smart_pizza.courier_delivery_order_menu
+#: model_terms:ir.ui.view,arch_db:smart_pizza.courier_delivery_order_form_view
+#: model_terms:ir.ui.view,arch_db:smart_pizza.courier_delivery_order_search
+#: model_terms:ir.ui.view,arch_db:smart_pizza.courier_delivery_order_tree_view
+msgid "Courier Delivery Order"
+msgstr "Замовлення на кур'єрську доставку"
+
+#. module: smart_pizza
+#: model_terms:ir.ui.view,arch_db:smart_pizza.courier_payment_report
+msgid "Courier Payment Report"
+msgstr "Звіт про оплату кур'єра"
+
+#. module: smart_pizza
+#: model:ir.actions.report,name:smart_pizza.action_courier_payment_report
+msgid "Courier Payment Report PDF"
+msgstr "Звіт про оплату кур'єра PDF"
+
+#. module: smart_pizza
+#: model:ir.actions.act_window,name:smart_pizza.courier_payment_report_wizard_act_window
+#: model:ir.model,name:smart_pizza.model_courier_payment_report_wizard
+#: model_terms:ir.ui.view,arch_db:smart_pizza.courier_payment_report_wizard_form_view
+msgid "Courier Payment Report Wizard"
+msgstr "Майстер звіту про оплату кур'єра"
+
+#. module: smart_pizza
+#: model:ir.actions.act_window,name:smart_pizza.courier_shift_act_window
+#: model:ir.model,name:smart_pizza.model_courier_shift
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_delivery_order__courier_shift_id
+#: model:ir.model.fields,field_description:smart_pizza.field_restaurant_table__courier_shift_id
+#: model:ir.model.fields,field_description:smart_pizza.field_setup_delivery_team_wizard__courier_shift_ids
+#: model:ir.ui.menu,name:smart_pizza.courier_shift_menu
+#: model_terms:ir.ui.view,arch_db:smart_pizza.courier_shift_form_view
+#: model_terms:ir.ui.view,arch_db:smart_pizza.courier_shift_search
+#: model_terms:ir.ui.view,arch_db:smart_pizza.courier_shift_tree_view
+msgid "Courier Shift"
+msgstr "Кур'єрська зміна"
+
+#. module: smart_pizza
+#. odoo-python
+#: code:addons/smart_pizza/models/courier_shift.py:0
+msgid "Couriers' work shifts cannot coincide!"
+msgstr "Робочі зміни кур'єрів не можуть збігатися!"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_delivery_order__create_uid
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_payment_report_wizard__create_uid
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_shift__create_uid
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__create_uid
+#: model:ir.model.fields,field_description:smart_pizza.field_setup_delivery_team_wizard__create_uid
+msgid "Created by"
+msgstr "Створено"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_delivery_order__create_date
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_payment_report_wizard__create_date
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_shift__create_date
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__create_date
+#: model:ir.model.fields,field_description:smart_pizza.field_setup_delivery_team_wizard__create_date
+msgid "Created on"
+msgstr "Створено на"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__currency_id
+msgid "Currency"
+msgstr "Валюта"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_delivery_order__partner_id
+msgid "Customer"
+msgstr "Замовник"
+
+#. module: smart_pizza
+#. odoo-python
+#: code:addons/smart_pizza/models/pos_order.py:0
+msgid "Customer required!"
+msgstr "Потрібен клієнт!"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__birthday
+msgid "Date of Birth"
+msgstr "Дата народження"
+
+#. module: smart_pizza
+#: model:pos.category,name:smart_pizza.delivery_pos_category
+#: model:product.template,name:smart_pizza.delivery_product_product_template
+#: model:res.groups,name:smart_pizza.group_delivery
+msgid "Delivery"
+msgstr "Доставка"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_delivery_order__delivery_cost
+#: model_terms:ir.ui.view,arch_db:smart_pizza.courier_payment_report
+msgid "Delivery Cost"
+msgstr "Вартість доставки"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_setup_delivery_team_wizard__delivery_floor_id
+msgid "Delivery Floor"
+msgstr "Поверх доставки"
+
+#. module: smart_pizza
+#: model:hr.job,name:smart_pizza.delivery_man
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_delivery_order__delivery_man_id
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_payment_report_wizard__delivery_man_ids
+#: model_terms:ir.ui.view,arch_db:smart_pizza.courier_delivery_order_search
+msgid "Delivery Man"
+msgstr "Кур'єр"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__delivery_order_ids
+msgid "Delivery Order"
+msgstr "Замовлення на доставку"
+
+#. module: smart_pizza
+#: model_terms:ir.ui.view,arch_db:smart_pizza.courier_shift_form_view
+msgid "Delivery Orders"
+msgstr "Замовлення на доставку"
+
+#. module: smart_pizza
+#: model_terms:ir.ui.view,arch_db:smart_pizza.courier_payment_report
+msgid "Delivery order"
+msgstr "Порядок доставки"
+
+#. module: smart_pizza
+#. odoo-python
+#: code:addons/smart_pizza/models/pos_order.py:0
+msgid "Delivery required!"
+msgstr "Потрібна доставка!"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__department_id
+msgid "Department"
+msgstr "відділ"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__department_color
+msgid "Department Color"
+msgstr "Відділ Колір"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__departure_date
+msgid "Departure Date"
+msgstr "Дата відправлення"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__departure_reason_id
+msgid "Departure Reason"
+msgstr "Причина вильоту"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__child_count
+msgid "Direct Subordinates Count"
+msgstr "Враховуються прямі підлеглі"
+
+#. module: smart_pizza
+#: model:ir.model.fields,help:smart_pizza.field_hr_delivery_man__subordinate_ids
+msgid "Direct and indirect subordinates"
+msgstr "Прямі та непрямі підлеглі"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__child_ids
+msgid "Direct subordinates"
+msgstr "Прямі підлеглі"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_delivery_order__display_name
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_payment_report_wizard__display_name
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_shift__display_name
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__display_name
+#: model:ir.model.fields,field_description:smart_pizza.field_setup_delivery_team_wizard__display_name
+msgid "Display Name"
+msgstr "Відображуване ім'я"
+
+#. module: smart_pizza
+#: model:ir.model.fields.selection,name:smart_pizza.selection__courier_delivery_order__state__done
+#: model_terms:ir.ui.view,arch_db:smart_pizza.courier_delivery_order_search
+msgid "Done"
+msgstr "Готово"
+
+#. module: smart_pizza
+#: model_terms:ir.ui.view,arch_db:smart_pizza.courier_delivery_order_form_view
+msgid "Done The Order"
+msgstr "Замовлення виконано"
+
+#. module: smart_pizza
+#: model:ir.model.fields.selection,name:smart_pizza.selection__courier_delivery_order__state__draft
+#: model_terms:ir.ui.view,arch_db:smart_pizza.courier_delivery_order_search
+msgid "Draft"
+msgstr "Чернетка"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__driving_license
+msgid "Driving License"
+msgstr "Водійське посвідчення"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__name
+msgid "Employee Name"
+msgstr "Ім'я працівника"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__employee_type
+msgid "Employee Type"
+msgstr "Тип працівника"
+
+#. module: smart_pizza
+#: model:ir.model.fields,help:smart_pizza.field_hr_delivery_man__bank_account_id
+msgid "Employee bank account to pay salaries"
+msgstr "Банківський рахунок працівника для виплати зарплати"
+
+#. module: smart_pizza
+#: model_terms:ir.ui.view,arch_db:smart_pizza.hr_delivery_man_form_view
+msgid "Employee's Name"
+msgstr "Ім'я працівника"
+
+#. module: smart_pizza
+#: model:ir.model.fields,help:smart_pizza.field_hr_delivery_man__employee_id
+msgid "Employee-related data of the user"
+msgstr "Дані користувача, що стосуються співробітників"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_delivery_order__time_end
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_shift__time_end
+msgid "End Time"
+msgstr "Час закінчення"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__study_field
+msgid "Field of Study"
+msgstr "Галузь дослідження"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_delivery_order__message_follower_ids
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__message_follower_ids
+msgid "Followers"
+msgstr "Послідовники"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_delivery_order__message_partner_ids
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Підписники (партнери)"
+
+#. module: smart_pizza
+#: model:ir.model.fields,help:smart_pizza.field_courier_delivery_order__activity_type_icon
+#: model:ir.model.fields,help:smart_pizza.field_hr_delivery_man__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Значок чудового шрифту, напр. фа-завдання"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_payment_report_wizard__from_date
+msgid "From Date"
+msgstr "З дати"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__gender
+msgid "Gender"
+msgstr "Стать"
+
+#. module: smart_pizza
+#: model:ir.model.fields.selection,name:smart_pizza.selection__courier_shift__status__happening
+msgid "Happening"
+msgstr "Відбувається"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_delivery_order__has_message
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__has_message
+msgid "Has Message"
+msgstr "Є повідомлення"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__km_home_work
+msgid "Home-Work Distance"
+msgstr "Відстань дім-робота"
+
+#. module: smart_pizza
+#: model:ir.actions.act_window,name:smart_pizza.hr_delivery_man_act_window
+#: model:ir.model,name:smart_pizza.model_hr_delivery_man
+#: model:ir.ui.menu,name:smart_pizza.hr_delivery_man_menu
+#: model_terms:ir.ui.view,arch_db:smart_pizza.hr_delivery_man_form_view
+#: model_terms:ir.ui.view,arch_db:smart_pizza.hr_delivery_man_search
+#: model_terms:ir.ui.view,arch_db:smart_pizza.hr_delivery_man_tree_view
+msgid "Hr Delivery Man"
+msgstr "Кур’єр"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__hr_icon_display
+msgid "Hr Icon Display"
+msgstr "Відображення піктограм Hr"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__hr_presence_state
+msgid "Hr Presence State"
+msgstr "Стан присутності кадрів"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_delivery_order__id
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_payment_report_wizard__id
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_shift__id
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__id
+#: model:ir.model.fields,field_description:smart_pizza.field_setup_delivery_team_wizard__id
+msgid "ID"
+msgstr "ID"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__id_card
+msgid "ID Card Copy"
+msgstr "Копія посвідчення особи"
+
+#. module: smart_pizza
+#: model:ir.model.fields,help:smart_pizza.field_hr_delivery_man__barcode
+msgid "ID used for employee identification."
+msgstr "ID, який використовується для ідентифікації співробітника."
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_delivery_order__activity_exception_icon
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__activity_exception_icon
+msgid "Icon"
+msgstr "значок"
+
+#. module: smart_pizza
+#: model:ir.model.fields,help:smart_pizza.field_courier_delivery_order__activity_exception_icon
+#: model:ir.model.fields,help:smart_pizza.field_hr_delivery_man__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Піктограма для позначення виняткової діяльності."
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__identification_id
+msgid "Identification No"
+msgstr "ідентифікаційний номер"
+
+#. module: smart_pizza
+#: model:ir.model.fields,help:smart_pizza.field_courier_delivery_order__message_needaction
+#: model:ir.model.fields,help:smart_pizza.field_hr_delivery_man__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення вимагають вашої уваги."
+
+#. module: smart_pizza
+#: model:ir.model.fields,help:smart_pizza.field_courier_delivery_order__message_has_error
+#: model:ir.model.fields,help:smart_pizza.field_courier_delivery_order__message_has_sms_error
+#: model:ir.model.fields,help:smart_pizza.field_hr_delivery_man__message_has_error
+#: model:ir.model.fields,help:smart_pizza.field_hr_delivery_man__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: smart_pizza
+#: model:ir.model.fields,help:smart_pizza.field_hr_delivery_man__active
+msgid "If the active field is set to False, it will allow you to hide the resource record without removing it."
+msgstr "Якщо для активного поля встановлено значення False, це дозволить вам приховати запис ресурсу, не видаляючи його."
+
+#. module: smart_pizza
+#: model:ir.model.fields,help:smart_pizza.field_hr_delivery_man__private_car_plate
+msgid "If you have more than one car, just separate the plates by a space."
+msgstr "Якщо у вас більше однієї машини, просто розділяйте номерні знаки пробілами."
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__image_1920
+msgid "Image"
+msgstr "Зображення"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__image_1024
+msgid "Image 1024"
+msgstr "Зображення 1024"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__image_128
+msgid "Image 128"
+msgstr "Зображення 128"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__image_256
+msgid "Image 256"
+msgstr "Зображення 256"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__image_512
+msgid "Image 512"
+msgstr "Зображення 512"
+
+#. module: smart_pizza
+#: model:ir.model.fields.selection,name:smart_pizza.selection__courier_delivery_order__state__in_progress
+#: model_terms:ir.ui.view,arch_db:smart_pizza.courier_delivery_order_search
+msgid "In progress"
+msgstr "В роботі"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__child_all_count
+msgid "Indirect Subordinates Count"
+msgstr "Підрахунок непрямих підлеглих"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_delivery_order__message_is_follower
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__message_is_follower
+msgid "Is Follower"
+msgstr "Є послідовником"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__is_subordinate
+msgid "Is Subordinate"
+msgstr "Є підлеглим"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__job_id
+#: model_terms:ir.ui.view,arch_db:smart_pizza.hr_delivery_man_form_view
+msgid "Job Position"
+msgstr "Посада"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__job_title
+msgid "Job Title"
+msgstr "Назва посади"
+
+#. module: smart_pizza
+#: model:res.groups,name:smart_pizza.group_kitchen
+msgid "Kitchen"
+msgstr "кухня"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__lang
+msgid "Lang"
+msgstr "ланг"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__last_activity
+msgid "Last Activity"
+msgstr "Остання активність"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__last_activity_time
+msgid "Last Activity Time"
+msgstr "Час останньої активності"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_delivery_order__write_uid
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_payment_report_wizard__write_uid
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_shift__write_uid
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__write_uid
+#: model:ir.model.fields,field_description:smart_pizza.field_setup_delivery_team_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Востаннє оновлено"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_delivery_order__write_date
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_payment_report_wizard__write_date
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_shift__write_date
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__write_date
+#: model:ir.model.fields,field_description:smart_pizza.field_setup_delivery_team_wizard__write_date
+msgid "Last Updated on"
+msgstr "Востаннє оновлено"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Основне вкладення"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__parent_id
+msgid "Manager"
+msgstr "Менеджер"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__marital
+msgid "Marital Status"
+msgstr "Сімейний стан"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__member_of_department
+msgid "Member of department"
+msgstr "Член кафедри"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_delivery_order__message_has_error
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__message_has_error
+msgid "Message Delivery error"
+msgstr "Помилка доставки повідомлення"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_delivery_order__message_ids
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__message_ids
+msgid "Messages"
+msgstr "Повідомлення"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_delivery_order__my_activity_date_deadline
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "Кінцевий термін моєї діяльності"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__country_id
+msgid "Nationality (Country)"
+msgstr "національність (країна)"
+
+#. module: smart_pizza
+#. odoo-python
+#: code:addons/smart_pizza/models/pos_order.py:0
+msgid "New"
+msgstr "новий"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__newly_hired
+msgid "Newly Hired"
+msgstr "Щойно прийнятий на роботу"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_delivery_order__activity_date_deadline
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Кінцевий термін наступної діяльності"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_delivery_order__activity_summary
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__activity_summary
+msgid "Next Activity Summary"
+msgstr "Підсумок наступної діяльності"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_delivery_order__activity_type_id
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__activity_type_id
+msgid "Next Activity Type"
+msgstr "Наступний тип діяльності"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__notes
+msgid "Notes"
+msgstr "Примітки"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_shift__number_delivery_orders
+msgid "Number Delivery Orders"
+msgstr "Кількість замовлень на доставку"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_delivery_order__message_needaction_counter
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Кількість дій"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__children
+msgid "Number of Dependent Children"
+msgstr "Кількість дітей на утриманні"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_delivery_order__message_has_error_counter
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__message_has_error_counter
+msgid "Number of errors"
+msgstr "Кількість помилок"
+
+#. module: smart_pizza
+#: model:ir.model.fields,help:smart_pizza.field_courier_delivery_order__message_needaction_counter
+#: model:ir.model.fields,help:smart_pizza.field_hr_delivery_man__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, які вимагають дії"
+
+#. module: smart_pizza
+#: model:ir.model.fields,help:smart_pizza.field_courier_delivery_order__message_has_error_counter
+#: model:ir.model.fields,help:smart_pizza.field_hr_delivery_man__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень з помилкою доставки"
+
+#. module: smart_pizza
+#: model_terms:ir.ui.view,arch_db:smart_pizza.courier_payment_report
+msgid "Number of orders"
+msgstr "Кількість замовлень"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__pin
+msgid "PIN"
+msgstr "PIN-код"
+
+#. module: smart_pizza
+#: model:ir.model.fields,help:smart_pizza.field_hr_delivery_man__pin
+msgid "PIN used to Check In/Out in the Kiosk Mode of the Attendance application (if enabled in Configuration) and to change the cashier in the Point of Sale application."
+msgstr "PIN-код, який використовується для реєстрації/виписки в режимі термінала програми Attendance (якщо ввімкнено в конфігурації) і для зміни касира в програмі Point of Sale."
+
+#. module: smart_pizza
+#: model:ir.model.fields.selection,name:smart_pizza.selection__courier_delivery_order__state__paid
+msgid "Paid"
+msgstr "Платний"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_delivery_order__date_paid
+msgid "Paid Date"
+msgstr "Оплачена дата"
+
+#. module: smart_pizza
+#: model_terms:ir.ui.view,arch_db:smart_pizza.courier_payment_report
+msgid "Paid salary"
+msgstr "Виплачена зарплата"
+
+#. module: smart_pizza
+#: model:ir.model.fields,help:smart_pizza.field_hr_delivery_man__user_partner_id
+msgid "Partner-related data of the user"
+msgstr "Партнерські дані користувача"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__passport_id
+msgid "Passport No"
+msgstr "№ паспорта"
+
+#. module: smart_pizza
+#: model_terms:ir.ui.view,arch_db:smart_pizza.courier_shift_calendar
+msgid "Patient Visit"
+msgstr "Відвідування пацієнта"
+
+#. module: smart_pizza
+#: model_terms:ir.ui.view,arch_db:smart_pizza.hr_delivery_man_form_view
+msgid "Pay profit"
+msgstr "Виплатити прибуток"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__place_of_birth
+msgid "Place of Birth"
+msgstr "Місце народження"
+
+#. module: smart_pizza
+#: model:ir.model.fields.selection,name:smart_pizza.selection__courier_shift__status__planed
+msgid "Planed"
+msgstr "Струганий"
+
+#. module: smart_pizza
+#: model:ir.model,name:smart_pizza.model_pos_config
+msgid "Point of Sale Configuration"
+msgstr "Конфігурація точки продажу"
+
+#. module: smart_pizza
+#: model:ir.model,name:smart_pizza.model_pos_order
+msgid "Point of Sale Orders"
+msgstr "Замовлення на місці продажу"
+
+#. module: smart_pizza
+#: model:ir.model,name:smart_pizza.model_pos_session
+msgid "Point of Sale Session"
+msgstr "Сеанс торгової точки"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_setup_delivery_team_wizard__pos_config_id
+msgid "Pos Config"
+msgstr "Pos Config"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_delivery_order__pos_order_id
+msgid "Pos Order"
+msgstr "Замовлення позиції"
+
+#. module: smart_pizza
+#: model_terms:ir.ui.view,arch_db:smart_pizza.courier_payment_report_wizard_form_view
+msgid "Print Courier Payment Report"
+msgstr "Роздрукуйте звіт про оплату кур'єра"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__private_car_plate
+msgid "Private Car Plate"
+msgstr "Номерний знак приватного автомобіля"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__private_city
+msgid "Private City"
+msgstr "Приватне місто"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__private_country_id
+msgid "Private Country"
+msgstr "Приватна Країна"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__private_email
+msgid "Private Email"
+msgstr "Приватна електронна пошта"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__private_phone
+msgid "Private Phone"
+msgstr "Приватний телефон"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__private_state_id
+msgid "Private State"
+msgstr "Приватна держава"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__private_street
+msgid "Private Street"
+msgstr "Приватна вул"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__private_street2
+msgid "Private Street2"
+msgstr "Приватна вул.2"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__private_zip
+msgid "Private Zip"
+msgstr "Приватний Zip"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__profit
+#: model_terms:ir.ui.view,arch_db:smart_pizza.hr_delivery_man_form_view
+msgid "Profit"
+msgstr "Прибуток"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__employee_properties
+msgid "Properties"
+msgstr "Властивості"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__employee_id
+msgid "Related Employee"
+msgstr "Пов'язаний працівник"
+
+#. module: smart_pizza
+#: model:ir.model.fields,help:smart_pizza.field_hr_delivery_man__user_id
+msgid "Related user name for the resource to manage its access."
+msgstr "Пов’язане ім’я користувача для керування доступом до ресурсу."
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__resource_id
+msgid "Resource"
+msgstr "Ресурс"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_delivery_order__activity_user_id
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__activity_user_id
+msgid "Responsible User"
+msgstr "Відповідальний користувач"
+
+#. module: smart_pizza
+#: model:ir.model,name:smart_pizza.model_restaurant_table
+msgid "Restaurant Table"
+msgstr "Стіл ресторану"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__resume_line_ids
+msgid "Resume lines"
+msgstr "Лінії резюме"
+
+#. module: smart_pizza
+#. odoo-python
+#: code:addons/smart_pizza/models/courier_delivery_order.py:0
+msgid "Return the money to the cashier!"
+msgstr "Поверни гроші в касу!"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__sinid
+msgid "SIN No"
+msgstr "№ SIN"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_delivery_order__message_has_sms_error
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Помилка доставки SMS"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__ssnid
+msgid "SSN No"
+msgstr "Номер SSN"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__study_school
+msgid "School"
+msgstr "Школа"
+
+#. module: smart_pizza
+#: model:ir.model.fields,help:smart_pizza.field_hr_delivery_man__coach_id
+msgid "Select the \"Employee\" who is the coach of this employee.\n"
+"The \"Coach\" has no specific rights or responsibilities by default."
+msgstr "Виберіть «Працівника», який є тренером цього співробітника.\n"
+"«Тренер» за умовчанням не має конкретних прав чи обов’язків."
+
+#. module: smart_pizza
+#: model:ir.actions.act_window,name:smart_pizza.setup_delivery_team_wizard_act_window
+#: model:ir.model,name:smart_pizza.model_setup_delivery_team_wizard
+#: model_terms:ir.ui.view,arch_db:smart_pizza.setup_delivery_team_wizard_form_view
+msgid "Setup delivery team wizard"
+msgstr "Налаштувати майстер доставки команди"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__show_hr_icon_display
+msgid "Show Hr Icon Display"
+msgstr "Показати піктограму годинника"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__skill_ids
+msgid "Skill"
+msgstr "Майстерність"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__employee_skill_ids
+msgid "Skills"
+msgstr "Навички"
+
+#. module: smart_pizza
+#: model:ir.ui.menu,name:smart_pizza.smart_delivery_menu
+msgid "Smart Delivery"
+msgstr "Розумна доставка"
+
+#. module: smart_pizza
+#: model:ir.model.fields,help:smart_pizza.field_hr_delivery_man__sinid
+msgid "Social Insurance Number"
+msgstr "Номер соціального страхування"
+
+#. module: smart_pizza
+#: model:ir.model.fields,help:smart_pizza.field_hr_delivery_man__ssnid
+msgid "Social Security Number"
+msgstr "Номер соціального страхування"
+
+#. module: smart_pizza
+#. odoo-python
+#: code:addons/smart_pizza/wizard/set_up_delivery_team_wizard.py:0
+msgid "Sorry, but courier shifts out of times."
+msgstr "Вибачте, але кур'єр працює невчасно."
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__spouse_birthdate
+msgid "Spouse Birthdate"
+msgstr "Дата народження подружжя"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__spouse_complete_name
+msgid "Spouse Complete Name"
+msgstr "Повне ім'я подружжя"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_delivery_order__time_start
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_shift__time_start
+msgid "Start Time"
+msgstr "Час початку"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_delivery_order__state
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_shift__status
+#: model_terms:ir.ui.view,arch_db:smart_pizza.courier_payment_report
+msgid "Status"
+msgstr "Статус"
+
+#. module: smart_pizza
+#: model:ir.model.fields,help:smart_pizza.field_courier_delivery_order__activity_state
+#: model:ir.model.fields,help:smart_pizza.field_hr_delivery_man__activity_state
+msgid "Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr "Статус за діяльністю\n"
+"Прострочено: Термін виконання вже минув\n"
+"Сьогодні: Дата дії - сьогодні\n"
+"Планується: майбутня діяльність."
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__subordinate_ids
+msgid "Subordinates"
+msgstr "Підлеглі"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__category_ids
+msgid "Tags"
+msgstr "Теги"
+
+#. module: smart_pizza
+#. odoo-python
+#: code:addons/smart_pizza/models/courier_shift.py:0
+msgid "The End Time cannot be earlier than the Start Time!"
+msgstr "Час закінчення не може бути раніше часу початку!"
+
+#. module: smart_pizza
+#: model:ir.model.fields,help:smart_pizza.field_hr_delivery_man__company_country_code
+msgid "The ISO country code in two chars. \n"
+"You can use this field for quick search."
+msgstr "Двозначний код країни ISO. \n"
+"Ви можете використовувати це поле для швидкого пошуку."
+
+#. module: smart_pizza
+#. odoo-python
+#: code:addons/smart_pizza/models/courier_shift.py:0
+msgid "The delivery functionality is not configured, contact the administrator!"
+msgstr "Функція доставки не налаштована, зверніться до адміністратора!"
+
+#. module: smart_pizza
+#: model:ir.model.fields,help:smart_pizza.field_hr_delivery_man__employee_type
+msgid "The employee type. Although the primary purpose may seem to categorize employees, this field has also an impact in the Contract History. Only Employee type is supposed to be under contract and will have a Contract History."
+msgstr "Тип працівника. Хоча може здатися, що основною метою є класифікація працівників, це поле також впливає на історію контрактів. Лише тип Employee має бути за контрактом і матиме історію контрактів."
+
+#. module: smart_pizza
+#: model:res.groups,comment:smart_pizza.group_waiter
+msgid "The user will be able to create orders."
+msgstr "Користувач зможе створювати замовлення."
+
+#. module: smart_pizza
+#: model:res.groups,comment:smart_pizza.group_administrator
+#: model:res.groups,comment:smart_pizza.group_delivery
+msgid "The user will be able to see his own orders."
+msgstr "Користувач зможе бачити власні замовлення."
+
+#. module: smart_pizza
+#: model:res.groups,comment:smart_pizza.group_kitchen
+msgid "The user will be able to see orders."
+msgstr "Користувач зможе бачити замовлення."
+
+#. module: smart_pizza
+#: model_terms:ir.actions.act_window,help:smart_pizza.courier_delivery_order_act_window
+#: model_terms:ir.actions.act_window,help:smart_pizza.hr_delivery_man_act_window
+msgid "There is no examples click here to add new Courier Delivery Order."
+msgstr "Немає прикладів. Натисніть тут, щоб додати нове замовлення кур’єрської доставки."
+
+#. module: smart_pizza
+#: model_terms:ir.actions.act_window,help:smart_pizza.courier_shift_act_window
+msgid "There is no examples click here to add new Courier Shift."
+msgstr "Немає прикладів. Натисніть тут, щоб додати нову зміну кур'єра."
+
+#. module: smart_pizza
+#: model:ir.model.fields,help:smart_pizza.field_hr_delivery_man__tz
+msgid "This field is used in order to define in which timezone the resources will work."
+msgstr "Це поле використовується для того, щоб визначити часовий пояс, в якому будуть працювати ресурси."
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__tz
+msgid "Timezone"
+msgstr "Часовий пояс"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_payment_report_wizard__to_date
+msgid "To Date"
+msgstr "На сьогоднішній день"
+
+#. module: smart_pizza
+#: model_terms:ir.ui.view,arch_db:smart_pizza.courier_delivery_order_form_view
+msgid "Took The Order"
+msgstr "Прийняв замовлення"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_delivery_order__amount_total
+#: model_terms:ir.ui.view,arch_db:smart_pizza.courier_payment_report
+msgid "Total"
+msgstr "Всього"
+
+#. module: smart_pizza
+#: model_terms:ir.ui.view,arch_db:smart_pizza.courier_payment_report
+msgid "Total of orders"
+msgstr "Всього замовлень"
+
+#. module: smart_pizza
+#: model_terms:ir.ui.view,arch_db:smart_pizza.courier_payment_report
+msgid "Total salary"
+msgstr "Загальна зарплата"
+
+#. module: smart_pizza
+#: model:ir.model.fields,help:smart_pizza.field_courier_delivery_order__activity_exception_decoration
+#: model:ir.model.fields,help:smart_pizza.field_hr_delivery_man__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Тип виняткової активності в записі."
+
+#. module: smart_pizza
+#: model_terms:ir.ui.view,arch_db:smart_pizza.courier_delivery_order_form_view
+msgid "Type to find a customer..."
+msgstr "Введіть, щоб знайти клієнта..."
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__user_id
+#: model_terms:ir.ui.view,arch_db:smart_pizza.courier_shift_search
+msgid "User"
+msgstr "Користувач"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__user_partner_id
+msgid "User's partner"
+msgstr "Партнер користувача"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__visa_expire
+msgid "Visa Expiration Date"
+msgstr "Термін дії візи"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__visa_no
+msgid "Visa No"
+msgstr "Номер візи"
+
+#. module: smart_pizza
+#: model:res.groups,name:smart_pizza.group_waiter
+msgid "Waiter"
+msgstr "Офіціант"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_courier_delivery_order__website_message_ids
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__website_message_ids
+msgid "Website Messages"
+msgstr "Повідомлення веб-сайту"
+
+#. module: smart_pizza
+#: model:ir.model.fields,help:smart_pizza.field_courier_delivery_order__website_message_ids
+#: model:ir.model.fields,help:smart_pizza.field_hr_delivery_man__website_message_ids
+msgid "Website communication history"
+msgstr "Історія спілкування сайту"
+
+#. module: smart_pizza
+#: model:ir.model.fields,help:smart_pizza.field_hr_delivery_man__member_of_department
+msgid "Whether the employee is a member of the active user's department or one of it's child department."
+msgstr "Чи є співробітник членом відділу активного користувача чи одного з його дочірніх відділів."
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__address_id
+msgid "Work Address"
+msgstr "Робоча адреса"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__work_contact_id
+msgid "Work Contact"
+msgstr "Робочий контакт"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__work_email
+msgid "Work Email"
+msgstr "Робоча електронна пошта"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__work_location_id
+msgid "Work Location"
+msgstr "Місце роботи"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__mobile_phone
+msgid "Work Mobile"
+msgstr "Мобільна робота"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__has_work_permit
+msgid "Work Permit"
+msgstr "Дозвіл на роботу"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__work_permit_expiration_date
+msgid "Work Permit Expiration Date"
+msgstr "Термін дії дозволу на роботу"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__permit_no
+msgid "Work Permit No"
+msgstr "Дозвіл на роботу №"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__work_permit_scheduled_activity
+msgid "Work Permit Scheduled Activity"
+msgstr "Дозвіл на роботу запланована діяльність"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__work_phone
+msgid "Work Phone"
+msgstr "Робочий телефон"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__resource_calendar_id
+msgid "Working Hours"
+msgstr "Години роботи"
+
+#. module: smart_pizza
+#. odoo-python
+#: code:addons/smart_pizza/models/courier_shift.py:0
+msgid "You need to correct the shift time!"
+msgstr "Потрібно виправити час зміни!"
+
+#. module: smart_pizza
+#. odoo-python
+#: code:addons/smart_pizza/models/courier_delivery_order.py:0
+msgid "You need to select a delivery man!"
+msgstr "Потрібно вибрати кур'єра!"
+
+#. module: smart_pizza
+#: model_terms:ir.ui.view,arch_db:smart_pizza.courier_payment_report
+msgid "to"
+msgstr "до"
+
+#. module: smart_pizza
+#: model:ir.model.fields,field_description:smart_pizza.field_hr_delivery_man__work_permit_name
+msgid "work_permit_name"
+msgstr "назва дозволу на роботу"

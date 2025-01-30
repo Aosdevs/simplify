@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="hr_delivery_man_form_view" model="ir.ui.view">
+            <field name="name">hr.delivery.man.form</field>
+            <field name="model">hr.delivery.man</field>
+            <field name="arch" type="xml">
+                <form string="Hr Delivery Man" js_class="hr_employee_form">
+                    <field name="active" invisible="1"/>
+                    <header>
+                        <button type="object"
+                                name="pay_profit"
+                                string="Pay profit"
+                                invisible="profit == 0">
+                        </button>
+                    </header>
+                    <sheet>
+                        <div class="oe_button_box" name="button_box">
+                            <button class="oe_stat_button"
+                                    type="object"
+                                    icon="fa-ticket"
+                                    name="action_delivery_orders_view">
+                                <field string="Profit" name="profit" widget="statinfo" invisible="profit == 0"/>
+                            </button>
+                        </div>
+                        <widget name="web_ribbon" title="Archived" bg_color="text-bg-danger" invisible="active"/>
+                        <field name="avatar_128" invisible="1"/>
+                        <div class="row justify-content-between position-relative w-100 m-0 mb-2">
+                            <div class="oe_title mw-75 ps-0 pe-2">
+                                <h1 class="d-flex flex-row align-items-center">
+                                    <field name="name" placeholder="Employee's Name" required="True"
+                                           style="font-size: min(4vw, 2.6rem);"/>
+                                </h1>
+                                <h2>
+                                    <field name="job_title" placeholder="Job Position"/>
+                                </h2>
+                            </div>
+                            <div class="o_employee_avatar m-0 p-0">
+                                <field name="image_1920" widget="image" class="oe_avatar m-0"
+                                       options="{&quot;zoom&quot;: true, &quot;preview_image&quot;:&quot;avatar_128&quot;}"/>
+                            </div>
+                        </div>
+                        <group>
+                            <group>
+                                <field name="employee_id"/>
+                                <field name="user_id"/>
+                            </group>
+                            <group>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="hr_delivery_man_tree_view" model="ir.ui.view">
+            <field name="name">hr.delivery.man.tree</field>
+            <field name="model">hr.delivery.man</field>
+            <field name="arch" type="xml">
+                <tree string="Hr Delivery Man">
+                    <field name="name"/>
+                    <field name="user_id"/>
+                    <field name="profit"/>
+                    <field name="active" column_invisible="1"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="hr_delivery_man_search" model="ir.ui.view">
+            <field name="name">hr.delivery.man.search</field>
+            <field name="model">hr.delivery.man</field>
+            <field name="arch" type="xml">
+                <search string="Hr Delivery Man">
+                    <filter name="active" string="Active" domain="[('active', '=', True)]"/>
+                    <filter name="archived" string="Archived" domain="[('active', '=', False)]"/>
+                </search>
+            </field>
+        </record>
+
+        <record id="hr_delivery_man_act_window" model="ir.actions.act_window">
+            <field name="name">Hr Delivery Man</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">hr.delivery.man</field>
+            <field name="view_mode">tree,form</field>
+            <field name="search_view_id" ref="hr_delivery_man_search"/>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                    There is no examples click here to add new Courier Delivery Order.
+                </p>
+            </field>
+        </record>
+
+        <menuitem name="Hr Delivery Man"
+                  id="hr_delivery_man_menu"
+                  parent="smart_delivery_menu"
+                  sequence="10"
+                  action="hr_delivery_man_act_window"/>
+
+    </data>
+</odoo>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="restaurant_table_form_inherit" model="ir.ui.view">
+            <field name="name">restaurant.table.form.inherit</field>
+            <field name="model">restaurant.table</field>
+            <field name="inherit_id" ref="pos_restaurant.view_restaurant_table_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//group[@col='2']" position="inside">
+                    <field name="courier_shift_id" groups="base.group_no_one"/>
+                </xpath>
+            </field>
+        </record>
+
+    </data>
+</odoo>

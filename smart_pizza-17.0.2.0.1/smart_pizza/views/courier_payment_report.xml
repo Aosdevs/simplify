@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <template id="courier_payment_report">
+            <t t-call="web.html_container">
+                <t t-call="web.internal_layout">
+                    <div class="page">
+                        <h2>Courier Payment Report
+                            <span t-out="from_date"/>
+                            <t t-if="to_date">to</t>
+                            <span t-out="to_date"/></h2>
+                        <div class="col-12">
+                            <table class="table table-bordered" style="table-layout: fixed">
+                                <thead style="display: table-row-group">
+                                    <tr>
+                                        <th class="text-center" style="width: 25%" scope="col">Delivery order</th>
+                                        <th class="text-center" style="width: 25%" scope="col">Total</th>
+                                        <th class="text-center" style="width: 25%" scope="col">Delivery Cost</th>
+                                        <th class="text-center" style="width: 25%" scope="col">Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <t t-foreach="lines" t-as="line">
+                                        <tr>
+                                            <td><span t-out="line['delivery_order']"/></td>
+                                            <td><span t-out="line['total']"/></td>
+                                            <td><span t-out="line['delivery_cost']"/></td>
+                                            <td><span t-out="line['status']"/></td>
+                                        </tr>
+                                    </t>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p>Number of orders
+                            <span t-out="number_of_orders"/></p>
+                        <p>Total of orders
+                            <span t-out="total_of_orders"/></p>
+                        <p>Total salary
+                            <span t-out="total_salary"/></p>
+                        <p>Paid salary
+                            <span t-out="paid_salary"/></p>
+                    </div>
+                </t>
+            </t>
+        </template>
+
+        <record id="action_courier_payment_report" model="ir.actions.report">
+            <field name="name">Courier Payment Report PDF</field>
+            <field name="model">hr.delivery.man</field>
+            <field name="report_type">qweb-pdf</field>
+            <field name="report_name">smart_pizza.courier_payment_report</field>
+            <field name="report_file">smart_pizza.courier_payment_report</field>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="courier_delivery_order_form_view" model="ir.ui.view">
+            <field name="name">courier.delivery.order.form</field>
+            <field name="model">courier.delivery.order</field>
+            <field name="arch" type="xml">
+                <form string="Courier Delivery Order">
+                    <header>
+                        <field name="state" widget="statusbar" statusbar_visible="draft,in_progress,done"/>
+                        <button name="took_the_order"
+                                string="Took The Order"
+                                type="object"
+                                class="btn-primary"
+                                invisible="state != 'draft'"
+                                data-hotkey="r"/>
+                        <button name="cancel_the_order"
+                                string="Cancel The Order"
+                                type="object"
+                                class="btn-primary"
+                                invisible="state == 'cancel'"
+                                data-hotkey="q"/>
+                        <button name="done_the_order"
+                                string="Done The Order"
+                                type="object"
+                                class="btn-primary"
+                                invisible="state != 'in_progress'"
+                                data-hotkey="d"/>
+                    </header>
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="name"
+                                       readonly="state != 'draft'"/>
+                                <field name="partner_id"
+                                       widget="res_partner_many2one"
+                                       context="{'res_partner_search_mode': 'customer', 'show_address': 1, 'show_vat': True}"
+                                       placeholder="Type to find a customer..."
+                                       readonly="state in ['cancel', 'done']"/>
+                                <field name="courier_shift_id"/>
+                                <field name="delivery_man_id"
+                                       readonly="state in ['cancel', 'done']"/>
+                            </group>
+                            <group>
+                                <field name="pos_order_id"
+                                       readonly="state != 'draft'"/>
+                                <field name="amount_total"/>
+                                <field name="delivery_cost"/>
+                                <field name="time_start"/>
+                                <field name="time_end"/>
+                                <field name="date_paid"/>
+                            </group>
+                        </group>
+                    </sheet>
+                    <div class="oe_chatter">
+                        <field name="message_follower_ids"/>
+                        <field name="activity_ids"/>
+                        <field name="message_ids"/>
+                    </div>
+                </form>
+            </field>
+        </record>
+
+        <record id="courier_delivery_order_tree_view" model="ir.ui.view">
+            <field name="name">courier.delivery.order.tree</field>
+            <field name="model">courier.delivery.order</field>
+            <field name="arch" type="xml">
+                <tree string="Courier Delivery Order">
+                    <field name="name"/>
+                    <field name="partner_id"/>
+                    <field name="state"/>
+                    <field name="courier_shift_id"/>
+                    <field name="delivery_man_id"/>
+                    <field name="delivery_cost"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="courier_delivery_order_search" model="ir.ui.view">
+            <field name="name">courier.delivery.order.search</field>
+            <field name="model">courier.delivery.order</field>
+            <field name="arch" type="xml">
+                <search string="Courier Delivery Order">
+                    <filter name="draft" string="Draft" domain="[('state', '=', 'draft')]"/>
+                    <filter name="in_progress" string="In progress" domain="[('state', '=', 'in_progress')]"/>
+                    <filter name="done" string="Done" domain="[('state', '=', 'done')]"/>
+                    <filter name="cancel" string="Cancelled" domain="[('state', '=', 'cancel')]"/>
+                    <group>
+                        <filter string="Delivery Man" name="delivery_man" context="{'group_by':'delivery_man_id'}"/>
+                    </group>
+                </search>
+            </field>
+        </record>
+
+        <record id="courier_delivery_order_act_window" model="ir.actions.act_window">
+            <field name="name">Courier Delivery Order</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">courier.delivery.order</field>
+            <field name="view_mode">tree,form</field>
+            <field name="search_view_id" ref="courier_delivery_order_search"/>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                    There is no examples click here to add new Courier Delivery Order.
+                </p>
+            </field>
+        </record>
+
+        <menuitem name="Courier Delivery Order"
+                  id="courier_delivery_order_menu"
+                  parent="smart_delivery_menu"
+                  sequence="5"
+                  action="courier_delivery_order_act_window"/>
+
+    </data>
+</odoo>

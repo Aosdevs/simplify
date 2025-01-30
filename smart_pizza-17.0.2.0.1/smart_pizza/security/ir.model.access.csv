@@ -1,0 +1,8 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_delivery_man_user,hr.delivery.man,model_hr_delivery_man,smart_pizza.group_delivery,1,0,0,0
+access_delivery_man_administrator,hr.delivery.man,model_hr_delivery_man,smart_pizza.group_administrator,1,1,1,1
+access_courier_shift_administrator,courier.shift.administrator,model_courier_shift,smart_pizza.group_administrator,1,1,1,1
+access_courier_delivery_order,courier.delivery.order,model_courier_delivery_order,smart_pizza.group_delivery,1,1,1,1
+access_setup_delivery_team_wizard,setup.delivery.team.wizard,model_setup_delivery_team_wizard,"",1,1,1,1
+access_courier_payment_report_wizard,courier.payment.report.wizard,model_courier_payment_report_wizard,"",1,1,1,1
+access_courier_shift_user,courier.shift.user,model_courier_shift,smart_pizza.group_delivery,1,0,0,0

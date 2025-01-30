@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!--Restaurant Floor-->
+        <record id="floor_delivery_team" model="restaurant.floor">
+            <field name="name">Delivery Team</field>
+            <field name="background_color">rgb(0,255,255)</field>
+            <field name="pos_config_ids" eval="[(6, 0, [ref('pos_restaurant.pos_config_main_restaurant')])]"/>
+        </record>
+        <!--Delivery as a pos category-->
+        <record id="delivery_pos_category" model="pos.category">
+            <field name="name">Delivery</field>
+            <field name="image_128" type="base64" file="smart_pizza/static/img/delivery.png"/>
+        </record>
+
+        <!--Delivery as a product-->
+        <record id="delivery_product" model="product.product">
+            <field name="name">Delivery</field>
+            <field name="detailed_type">service</field>
+            <field name="list_price">5</field>
+            <field name="available_in_pos" eval="True"/>
+            <field name="pos_categ_ids" eval="[(4, ref('delivery_pos_category'))]"/>
+            <field name="image_1920" type="base64" file="smart_pizza/static/img/delivery.png"/>
+        </record>
+
+    </data>
+</odoo>
